@@ -22,7 +22,7 @@ while True:
 
     except Exception:
         print('\nSorry, please input number only. Or an unknown error occurred.')
-    keep_running = input('Input any keys to continue or input b to exit the program')
+    keep_running = input('Input any keys to continue or input b to exit the program ')
     if keep_running == 'b':
         print('')
         break
