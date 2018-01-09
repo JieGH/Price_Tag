@@ -19,7 +19,7 @@ while True:
         x = float(price) / float(net) * 500
         print('此商品，每 500 克/毫升：' + str(round(x, 4)) + '元')
 
-    except Exception :
+    except Exception:
         print('抱歉！你输入的价钱或者含量不为纯数字，或者其他未知错误。')
     keep_running = input('\n请按任意键重新开始，或者输入 b 停止程序。')
     if keep_running == 'b':
